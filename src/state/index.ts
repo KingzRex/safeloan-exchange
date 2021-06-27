@@ -1,4 +1,5 @@
 import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit'
+import { Middleware } from 'redux'
 import { save, load } from 'redux-localstorage-simple'
 
 import application from './application/reducer'

@@ -1,7 +1,7 @@
 import { TokenAmount, Pair, Currency } from '@carticfinance-libs/sdk'
 import { useMemo } from 'react'
 import { abi as IUniswapV2PairABI } from '@uniswap/v2-core/build/IUniswapV2Pair.json'
-import { Interface } from '@ethersproject/abi'
+import { Interface } from '@ethersproject/contracts/node_modules/@ethersproject/abi/lib/'
 import { useActiveWeb3React } from '../hooks'
 
 import { useMultipleContractSingleData } from '../state/multicall/hooks'

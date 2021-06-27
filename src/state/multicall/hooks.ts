@@ -1,4 +1,4 @@
-import { Interface, FunctionFragment } from '@ethersproject/abi'
+import { FunctionFragment, Interface } from '@ethersproject/contracts/node_modules/@ethersproject/abi/lib/'
 import { BigNumber } from '@ethersproject/bignumber'
 import { Contract } from '@ethersproject/contracts'
 import { useEffect, useMemo } from 'react'
