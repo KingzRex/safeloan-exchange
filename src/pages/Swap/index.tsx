@@ -268,7 +268,7 @@ const Swap = () => {
         transactionType={syrupTransactionType}
         onConfirm={handleConfirmSyrupWarning}
       />
-      <PageTitle title="Exchange." subtitle="TRADE YOUR TOKEN IN AN INSTANT" />
+      <PageTitle title="SafeLoan Exchange." subtitle="TRADE YOUR TOKEN IN AN INSTANT" />
       <AppBody bg="primary">
         <Wrapper id="swap-page" style={{ paddingBottom: 30 }}>
           <ConfirmSwapModal
